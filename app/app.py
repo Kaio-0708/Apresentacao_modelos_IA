@@ -2,10 +2,19 @@ import streamlit as st
 import pandas as pd 
 import joblib
 import numpy as np
-
+"""
 model = joblib.load("../models/svm_rbf_model.pkl")
 scaler = joblib.load("../models/scaler.pkl")
 features = joblib.load("../models/features.pkl")
+"""
+current_dir = os.path.dirname(__file__)  
+model_path = os.path.join(current_dir, "models", "svm_rbf_model.pkl")
+scaler_path = os.path.join(current_dir, "models", "scaler.pkl")
+features_path = os.path.join(current_dir, "models", "features.pkl")
+
+model = joblib.load(model_path)
+scaler = joblib.load(scaler_path)
+features = joblib.load(features_path)
 
 st.set_page_config(page_title="IA - Doença Cardíaca", layout="centered")
 
