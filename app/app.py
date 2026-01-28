@@ -4,11 +4,11 @@ import joblib
 import numpy as np
 import os
 
-"""
-model = joblib.load("../models/svm_rbf_model.pkl")
-scaler = joblib.load("../models/scaler.pkl")
-features = joblib.load("../models/features.pkl")
-"""
+
+# model = joblib.load("../models/svm_rbf_model.pkl")
+# scaler = joblib.load("../models/scaler.pkl")
+# features = joblib.load("../models/features.pkl")
+
 current_dir = os.getcwd()
 model_path = os.path.join(current_dir, "models", "svm_rbf_model.pkl")
 scaler_path = os.path.join(current_dir, "models", "scaler.pkl")
