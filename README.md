@@ -64,7 +64,7 @@ https://uci-ics-mlr-prod.aws.uci.edu/dataset/45/heart%2Bdisease
 - **streamlit** – interface web interativa
 
 ## Streamlit Cloud: 
-https://ia-sistemas-fisico-ciberneticos--ufcg-berknc3m3vi3vidvx7bapf.streamlit.app/
+https://apresentacaomodelosia-2gxdaayuxhzlz9dvjseh8a.streamlit.app/
 
 ## Autor
 
