@@ -8,8 +8,19 @@ import os
 # scaler = joblib.load("../models/scaler.pkl")
 # features = joblib.load("../models/features.pkl")
 
+model_files = {
+    "Logistic Regression": "logreg_model.pkl",
+    "KNN": "knn_model.pkl",
+    "SVM-RBF": "svm_rbf_model.pkl",
+    "Random Forest": "rf_model.pkl",
+    "XGBoost": "xgb_model.pkl"
+}
+
+selected_model_name = st.sidebar.selectbox("Escolha o modelo de IA", list(model_files.keys()))
+model_file = model_files[selected_model_name]
+
 current_dir = os.getcwd()
-model_path = os.path.join(current_dir, "models", "svm_rbf_model.pkl")
+model_path = os.path.join(current_dir, "models", model_file)
 scaler_path = os.path.join(current_dir, "models", "scaler.pkl")
 features_path = os.path.join(current_dir, "models", "features.pkl")
 
