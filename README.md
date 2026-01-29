@@ -66,6 +66,11 @@ https://uci-ics-mlr-prod.aws.uci.edu/dataset/45/heart%2Bdisease
 ## Streamlit Cloud: 
 https://apresentacaomodelosia-2gxdaayuxhzlz9dvjseh8a.streamlit.app/
 
+## Links úteis
+https://streamlit.io/cloud
+https://docs.streamlit.io/
+https://joblib.readthedocs.io/en/stable/
+
 ## Autor
 
 Kaio Vitor - [GitHub](https://github.com/Kaio-0708)
