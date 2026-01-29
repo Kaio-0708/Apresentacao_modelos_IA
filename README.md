@@ -44,7 +44,7 @@ https://uci-ics-mlr-prod.aws.uci.edu/dataset/45/heart%2Bdisease
    - Inputs clínicos do paciente: idade, sexo, pressão, colesterol, ECG, etc.
    - Transformações e dummy encoding replicando o pré-processamento do dataset.
    - Escalonamento com o `StandardScaler` treinado.
-   - Predição usando o modelo `SVM-RBF` treinado, no qual foi o de melhor avaliação com as métricas.
+   - Predição usando todos os modelos treinados.
    - Exibição de:
      - Probabilidade de doença cardíaca
      - Classificação de risco (Alto/Baixo)
