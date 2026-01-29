@@ -68,7 +68,9 @@ https://apresentacaomodelosia-2gxdaayuxhzlz9dvjseh8a.streamlit.app/
 
 ## Links úteis
 https://streamlit.io/cloud
+
 https://docs.streamlit.io/
+
 https://joblib.readthedocs.io/en/stable/
 
 ## Autor
