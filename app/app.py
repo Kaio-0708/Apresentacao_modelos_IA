@@ -4,7 +4,6 @@ import joblib
 import numpy as np
 import os
 
-
 # model = joblib.load("../models/svm_rbf_model.pkl")
 # scaler = joblib.load("../models/scaler.pkl")
 # features = joblib.load("../models/features.pkl")
