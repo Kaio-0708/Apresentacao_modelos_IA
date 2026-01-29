@@ -4,6 +4,7 @@ import joblib
 import numpy as np
 import os
 
+# Estrutura de carregando localmente
 # model = joblib.load("../models/svm_rbf_model.pkl")
 # scaler = joblib.load("../models/scaler.pkl")
 # features = joblib.load("../models/features.pkl")
@@ -31,8 +32,8 @@ features = joblib.load(features_path)
 st.set_page_config(page_title="IA - Doença Cardíaca", layout="centered")
 
 st.title("Sistema de Predição de Doença Cardíaca com IA")
-st.write("Preencha os dados clínicos do paciente:")
 
+st.write("Preencha os dados clínicos do paciente:")
 age = st.number_input("Idade", 1, 120, 50)
 sex = st.selectbox("Sexo", [0, 1], format_func=lambda x: "Feminino" if x == 0 else "Masculino")
 cp = st.selectbox("Tipo de dor no peito (cp)", [0, 1, 2, 3])
